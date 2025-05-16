@@ -51,7 +51,7 @@ const About = () => {
                   <li className="flex items-start">
                     <span className="font-medium min-w-28">Email:</span>
                     <a href="kushagrasinha140.com" className="text-primary hover:underline">
-                      kushagrasinha140@gmail.com
+                      kushagrasinha140@gmail
                     </a>
                   </li>
                   <li className="flex items-start">
