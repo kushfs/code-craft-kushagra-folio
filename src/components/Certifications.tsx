@@ -68,13 +68,13 @@ const Certifications = () => {
               </CardContent>
               <CardFooter>
                 <Button variant="outline" asChild size="sm">
-                  <a 
+{/*                   <a 
                     href={cert.link} 
                     target="_blank" 
                     rel="noopener noreferrer"
                   >
                     View Certification
-                  </a>
+                  </a> */}
                 </Button>
               </CardFooter>
             </Card>
