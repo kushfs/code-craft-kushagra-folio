@@ -141,10 +141,10 @@ const Contact = () => {
                     <div>
                       <h4 className="font-medium">Email</h4>
                       <a
-                        href="mailto:email@example.com"
+                        href="mailto:kushagrasinha140@gmail.com"
                         className="text-muted-foreground hover:text-primary transition-colors"
                       >
-                        email@example.com
+                        kushagrasinha140@gmail.com
                       </a>
                     </div>
                   </div>
@@ -191,7 +191,7 @@ const Contact = () => {
                     <Linkedin className="h-5 w-5" />
                   </a>
                   <a
-                    href="https://leetcode.com/"
+                    href="https://leetcode.com/u/kushagra_0201/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-muted p-3 rounded-full hover:bg-primary/10 transition-colors"
@@ -200,7 +200,7 @@ const Contact = () => {
                     <Code className="h-5 w-5" />
                   </a>
                   <a
-                    href="mailto:email@example.com"
+                    href="mailto:kushagrasinha140@gmail.com"
                     className="bg-muted p-3 rounded-full hover:bg-primary/10 transition-colors"
                     aria-label="Email"
                   >

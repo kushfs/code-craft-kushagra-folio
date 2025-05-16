@@ -58,7 +58,7 @@ const Hero = () => {
                 <Linkedin size={22} />
               </a>
               <a 
-                href="https://leetcode.com/"
+                href="https://leetcode.com/u/kushagra_0201/"
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"
@@ -67,7 +67,7 @@ const Hero = () => {
                 <Code size={22} />
               </a>
               <a 
-                href="mailto:email@example.com" 
+                href="mailto:kushagrasinha140@gmail.com" 
                 className="text-muted-foreground hover:text-primary transition-colors"
                 aria-label="Email"
               >
