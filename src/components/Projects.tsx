@@ -20,7 +20,7 @@ const Projects = () => {
         "JWT Authentication",
       ],
       github: "https://github.com/",
-      live: "https://physiotherapy-booking.example.com",
+      live: "https://physiopath.netlify.app/",
     },
     {
       title: "Real-Time Stock Market Prediction",
@@ -29,7 +29,7 @@ const Projects = () => {
       image: "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?q=80&w=2070",
       tech: ["Python", "TensorFlow", "React.js", "Flask API", "Chart.js", "REST API"],
       github: "https://github.com/",
-      live: "https://stock-prediction.example.com",
+      live: "https://stockwayy.vercel.app",
     },
     {
       title: "Plone API Open Source Contribution",

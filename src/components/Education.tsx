@@ -5,28 +5,28 @@ import { GraduationCap, School, Calendar } from "lucide-react";
 const Education = () => {
   const educationData = [
     {
-      degree: "Bachelor of Technology in Computer Science",
+      degree: "Bachelor of Technology in Information Technology",
       institution: "Kalinga Institute of Industrial Technology (KIIT)",
-      duration: "2020 - 2024",
+      duration: "September 2022 - Present",
       description: "Specializing in software engineering and web development. Coursework includes Data Structures & Algorithms, Database Management Systems, Operating Systems, Computer Networks, and Web Development.",
       icon: <GraduationCap className="h-10 w-10 text-primary" />,
-      gpa: "8.6 CGPA",
+      gpa: "7.63 CGPA",
     },
     {
       degree: "Class XII (Senior Secondary)",
       institution: "Escorts World School",
-      duration: "2019 - 2020",
+      duration: "March 2022",
       description: "Completed senior secondary education with PCM (Physics, Chemistry, Mathematics) stream. Participated in various coding competitions and hackathons.",
       icon: <School className="h-10 w-10 text-primary" />,
-      gpa: "92%",
+      gpa: "78%",
     },
     {
       degree: "Class X (Secondary)",
       institution: "Escorts World School",
-      duration: "2017 - 2018",
+      duration: "March 2020",
       description: "Completed secondary education with distinction. Developed strong foundation in mathematics and science. First introduction to programming and computer science concepts.",
       icon: <School className="h-10 w-10 text-primary" />,
-      gpa: "94%",
+      gpa: "84%",
     },
   ];
 
