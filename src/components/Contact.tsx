@@ -155,7 +155,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h4 className="font-medium">Phone</h4>
-                      <p className="text-muted-foreground">+91 98765 43210</p>
+                      <p className="text-muted-foreground">+91 9555717110</p>
                     </div>
                   </div>
                   
@@ -173,7 +173,7 @@ const Contact = () => {
                 <h3 className="text-lg font-medium mb-4 mt-auto">Connect With Me</h3>
                 <div className="flex gap-4">
                   <a
-                    href="https://github.com/"
+                    href="https://github.com/kushfs"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-muted p-3 rounded-full hover:bg-primary/10 transition-colors"
@@ -182,7 +182,7 @@ const Contact = () => {
                     <Github className="h-5 w-5" />
                   </a>
                   <a
-                    href="https://linkedin.com/in/"
+                    href="https://www.linkedin.com/in/kushagra-sinha-9b1b47244/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-muted p-3 rounded-full hover:bg-primary/10 transition-colors"
