@@ -22,7 +22,7 @@ const Footer = () => {
           
           <div className="flex items-center space-x-5">
             <a
-              href="https://github.com/"
+              href="https://github.com/kushfs"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
@@ -31,7 +31,7 @@ const Footer = () => {
               <Github size={20} />
             </a>
             <a
-              href="https://linkedin.com/in/"
+              href="https://www.linkedin.com/in/kushagra-sinha-9b1b47244/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
