@@ -18,7 +18,7 @@ const Education = () => {
       duration: "March 2022",
       description: "Completed senior secondary education with PCM (Physics, Chemistry, Mathematics) stream. Participated in various coding competitions and hackathons.",
       icon: <School className="h-10 w-10 text-primary" />,
-      gpa: "78%",
+      gpa: "68%",
     },
     {
       degree: "Class X (Secondary)",

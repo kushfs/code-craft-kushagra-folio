@@ -1,6 +1,7 @@
 
 import { useState, useEffect } from "react";
 import { cn } from "@/lib/utils";
+import ThemeToggle from "./ThemeToggle";
 
 const Header = () => {
   const [activeSection, setActiveSection] = useState("home");
@@ -67,7 +68,7 @@ const Header = () => {
         </a>
         
         {/* Desktop Navigation */}
-        <nav className="hidden md:block">
+        <nav className="hidden md:flex items-center space-x-8">
           <ul className="flex space-x-8">
             {menuItems.map((item) => (
               <li key={item.id}>
@@ -90,29 +91,37 @@ const Header = () => {
               </li>
             ))}
           </ul>
+          
+          {/* Theme Toggle */}
+          <ThemeToggle />
         </nav>
         
-        {/* Mobile Menu Button */}
-        <button 
-          onClick={() => setIsMenuOpen(!isMenuOpen)}
-          className="md:hidden p-2"
-          aria-label="Toggle menu"
-        >
-          <div className="w-6 flex flex-col gap-1.5">
-            <span className={cn(
-              "block h-0.5 w-full bg-foreground transition-all duration-300",
-              isMenuOpen && "rotate-45 translate-y-2"
-            )} />
-            <span className={cn(
-              "block h-0.5 w-full bg-foreground transition-all duration-300",
-              isMenuOpen && "opacity-0"
-            )} />
-            <span className={cn(
-              "block h-0.5 w-full bg-foreground transition-all duration-300",
-              isMenuOpen && "-rotate-45 -translate-y-2"
-            )} />
-          </div>
-        </button>
+        {/* Mobile Menu Elements */}
+        <div className="md:hidden flex items-center gap-2">
+          <ThemeToggle />
+          
+          {/* Mobile Menu Button */}
+          <button 
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+            className="p-2"
+            aria-label="Toggle menu"
+          >
+            <div className="w-6 flex flex-col gap-1.5">
+              <span className={cn(
+                "block h-0.5 w-full bg-foreground transition-all duration-300",
+                isMenuOpen && "rotate-45 translate-y-2"
+              )} />
+              <span className={cn(
+                "block h-0.5 w-full bg-foreground transition-all duration-300",
+                isMenuOpen && "opacity-0"
+              )} />
+              <span className={cn(
+                "block h-0.5 w-full bg-foreground transition-all duration-300",
+                isMenuOpen && "-rotate-45 -translate-y-2"
+              )} />
+            </div>
+          </button>
+        </div>
       </div>
       
       {/* Mobile Navigation */}
