@@ -40,7 +40,7 @@ const Hero = () => {
             
             <div className="flex items-center gap-6 justify-center lg:justify-start pt-4">
               <a 
-                href="https://github.com/" 
+                href="https://github.com/kushfs" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"
@@ -49,7 +49,7 @@ const Hero = () => {
                 <Github size={22} />
               </a>
               <a 
-                href="https://linkedin.com/in/"
+                href="https://www.linkedin.com/in/kushagra-sinha-9b1b47244/"
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"
