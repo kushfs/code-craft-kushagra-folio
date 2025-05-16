@@ -19,7 +19,7 @@ const Projects = () => {
         "Bootstrap",
         "JWT Authentication",
       ],
-      github: "https://github.com/",
+      github: "https://github.com/kushfs/physiopath_app",
       live: "https://physiopath.netlify.app/",
     },
     {
@@ -28,7 +28,7 @@ const Projects = () => {
         "A web application that uses machine learning algorithms to predict stock market trends in real-time. Visualizes data using interactive charts and provides investment recommendations.",
       image: "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?q=80&w=2070",
       tech: ["Python", "TensorFlow", "React.js", "Flask API", "Chart.js", "REST API"],
-      github: "https://github.com/",
+      github: "https://github.com/kushfs/stockwayy",
       live: "https://stockwayy.vercel.app",
     },
     {
