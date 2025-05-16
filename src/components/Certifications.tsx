@@ -19,7 +19,7 @@ const Certifications = () => {
       date: "2022",
       icon: <Database className="w-10 h-10 text-primary" />,
       description: "Advanced SQL certification covering complex queries, joins, subqueries, window functions, and database optimization techniques.",
-      link: "https://www.hackerrank.com/skills-verification",
+      
     },
     {
       name: "Web Development",
@@ -27,7 +27,7 @@ const Certifications = () => {
       date: "2022",
       icon: <FileCheck className="w-10 h-10 text-primary" />,
       description: "Comprehensive certification covering HTML5, CSS3, JavaScript, React.js, and responsive web design principles.",
-      link: "https://www.freecodecamp.org/certification/",
+      // link: "https://www.freecodecamp.org/certification/",
     },
     {
       name: "AWS Cloud Computing",
@@ -35,7 +35,7 @@ const Certifications = () => {
       date: "2023",
       icon: <Award className="w-10 h-10 text-primary" />,
       description: "Cloud computing fundamentals including EC2, S3, Lambda, CloudFront, and best practices for cloud architecture.",
-      link: "https://aws.amazon.com/certification/",
+      // link: "https://aws.amazon.com/certification/",
     },
   ];
 
