@@ -75,15 +75,15 @@ const Skills = () => {
 
         <div className="mt-6">
           <Tabs defaultValue="languages" className="w-full">
-            <TabsList className="flex flex-wrap gap-2 mb-6">
+            <TabsList className="flex flex-wrap justify-center gap-2 mb-6">
               {skillCategories.map((category) => (
                 <TabsTrigger
                   key={category.id}
                   value={category.id}
-                  className="flex items-center gap-2"
+                  className="flex items-center gap-2 px-3 py-2 text-sm md:text-base"
                 >
                   {category.icon}
-                  <span>{category.label}</span>
+                  <span className="hidden xs:inline">{category.label}</span>
                 </TabsTrigger>
               ))}
             </TabsList>
@@ -96,9 +96,9 @@ const Skills = () => {
                       {category.skills.map((skill) => (
                         <div
                           key={skill}
-                          className="bg-muted rounded-lg p-4 text-center hover:bg-muted/80 transition-colors hover:border-primary border-2 border-transparent"
+                          className="bg-muted rounded-lg p-3 text-center hover:bg-muted/80 transition-colors hover:border-primary border-2 border-transparent"
                         >
-                          <span className="block font-medium">{skill}</span>
+                          <span className="block font-medium text-sm sm:text-base">{skill}</span>
                         </div>
                       ))}
                     </div>
